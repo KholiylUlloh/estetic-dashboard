@@ -1,0 +1,72 @@
+.body_wrap {
+  width: 100%;
+  display: flex;
+}
+
+.outlet {
+  flex: 2;
+}
+
+.expand {
+  flex: 3;
+}
+
+.drawer_wrap {
+  flex: 1;
+  height: 942px;
+  padding: 37px 20px 468px;
+  background-color: #f1f1f1;
+  font-family: "Inter med";
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 36px;
+  margin-left: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: left;
+  gap: 8px;
+  width: 260px;
+  padding: 10px;
+  margin: 6px 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.63px;
+}
+
+.option:hover {
+  border-radius: 6px;
+  background-color: #fff;
+  color: #4caf50;
+}
+
+.active {
+  border-radius: 6px;
+  background-color: #fff;
+  color: #4caf50;
+}
+
+.title {
+  width: 90px;
+  height: 21px;
+  margin: 0 170px 21px 0;
+  font-family: "Inter med";
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.71px;
+  color: #b8b8b8;
+}

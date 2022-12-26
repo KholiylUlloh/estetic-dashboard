@@ -1,0 +1,133 @@
+.staff_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 108px 0 62px;
+  width: 100%;
+}
+
+.staff_header {
+  border-bottom: 1px solid #eaeaea;
+  width: 67vw;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Inter med";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.63px;
+  color: #000;
+  padding-bottom: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:focus {
+  border-bottom: 1px solid #4caf50;
+  color: #4caf50;
+}
+
+.staff_header-links {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 26px;
+}
+
+.passive_users:focus {
+  color: #4caf50;
+}
+
+.active_users:focus {
+  color: #4caf50;
+}
+
+.active_users,
+.passive_users {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.staff_body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.staff_body-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 23px 20px 31px;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  width: 900px;
+  font-family: "Inter med";
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.63px;
+  color: #000;
+}
+
+.staff_category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.users_btn {
+  width: 161px;
+  height: 40px;
+  margin: 0 0 0 333px;
+  padding: 9px 27px 10px;
+  border-radius: 8px;
+  background-color: #4caf50;
+  font-family: "Inter med";
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.71px;
+  color: #fff;
+  border: none;
+}
+
+.users_table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 37px;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 846px;
+  padding: 6px 12px 6px 8px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.position {
+  flex: 0.5;
+  text-align: center;
+}

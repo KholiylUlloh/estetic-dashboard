@@ -1,0 +1,21 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" id="i8j4m17f6a"/>
+        <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" id="7rxx5f4uvb"/>
+        <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" id="f1y7k2iaec"/>
+        <mask id="ls5jkpnexd" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="20" height="20" fill="#fff">
+            <use xlink:href="#i8j4m17f6a"/>
+        </mask>
+        <mask id="jvgnwr71ve" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="#fff">
+            <use xlink:href="#7rxx5f4uvb"/>
+        </mask>
+        <mask id="d5163q1wdf" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="4" height="4" fill="#fff">
+            <use xlink:href="#f1y7k2iaec"/>
+        </mask>
+    </defs>
+    <g stroke="#FFF" stroke-width="2.4" fill="none" fill-rule="evenodd" stroke-dasharray="0,0">
+        <use mask="url(#ls5jkpnexd)" xlink:href="#i8j4m17f6a"/>
+        <use mask="url(#jvgnwr71ve)" xlink:href="#7rxx5f4uvb"/>
+        <use mask="url(#d5163q1wdf)" xlink:href="#f1y7k2iaec"/>
+    </g>
+</svg>
